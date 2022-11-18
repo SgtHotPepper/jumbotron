@@ -11,24 +11,30 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav>
-      <div class="container">
-        <ul class="">
-          <li class=""><a href="" class="">Home</a></li>
-          <li class=""><a href="" class="">Info</a></li>
-          <li class=""><a href="" class="">Contact</a></li>
+    <nav class="bg-dark text-center">
+      <div class="container bg-dark">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="#" class="text-decoration-none text-info">Home</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="text-decoration-none text-info">Info</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="text-decoration-none text-info">Contact</a>
+          </li>
         </ul>
       </div>
     </nav>
-    <section>
+    <section class="bg-dark text-info py-3 bg-gradient">
       <div class="container jumbotron">
-        <h1>This Is My Jumbotron</h1>
-        <h2>Or is it....</h2>
-        <p>Now, let's style the rest of this jumbotron using some Bootsrtap Utility Classes.</p>
+        <h1 class="display-1 text-center">This Is My Jumbotron</h1>
+        <h2 class="text-muted">Or is it....</h2>
+        <p class="lead">Now, let's style the rest of this jumbotron using some Bootsrtap Utility Classes.</p>
         <p>Classes to use for this are:</p>
         <div class="row">
-          <div class="col-sm-6">
-            <ul>
+          <div class="col-6">
+            <ul class="list-unstyled">
               <li>display-1</li>
               <li>text-muted</li>
               <li>lead</li>
@@ -36,8 +42,8 @@
               <li>list-inline-item</li>
             </ul>
           </div>
-          <div class="col-sm-6">
-            <ul>
+          <div class="col-6">
+            <ul class="list-unstyled">
               <li>bg-color</li>
               <li>bg-gradient</li>
               <li>border</li>
@@ -47,7 +53,7 @@
           </div>
         </div>
         
-        <button type="button">Let's Go</button>
+        <button type="button" class="btn-primary ">Let's Go</button>
       </div>
     </section>
     
